@@ -1,0 +1,30 @@
+https://sir.kr/bbs/board.php?bo_table=pg_tip&wr_id=17285
+
+PHP ChatGPT API 예제
+ 리자2023.02.07 12:10:03조회 5,769댓글 30
+
+첨부파일
+ gpt-form.php (631byte) 581회 2023-02-07 12:10:03
+ gpt-run.php (2.3K) 173회 2023-02-07 12:10:03
+목록
+첨부해 드린 gpt-form.php 와 gpt-run.php 를 웹서버의 동일한 폴더에 업로드 합니다.
+
+ 
+
+gpt-run.php 의 api_key 에 openai api key 를 발행하여 입력합니다.
+
+https://platform.openai.com/account/api-keys
+
+ 
+
+<?php
+
+ 
+
+$api_key = "sk-bwgYR8TXR5LzDn6wX-----BlbkFJxpK6vm0TlbyufVeva9ru";
+
+ 
+
+ 
+
+그리고 gpt-form.php 를 실행하여 prompt 에 질문을 입력한 후 Submit 을 클릭합니다.
